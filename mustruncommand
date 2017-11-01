@@ -1,0 +1,5 @@
+-f RAMIMAGEFILENAME kdbgscan                          #imageinfoより正確にプロファイルを特定可能
+-f RAMIMAGEFILENAME imageinfo                         #プロファイルを特定するのに利用する
+-f RAMIMAGEFILENAME --profile=PROFILE pstree          #イメージ取得時のプロセスが表示される
+-f RAMIMAGEFILENAME --profile=PROFILE connection      #イメージ取得時のアクティブな通信一覧が表示される
+-f RAMIMAGEFILENAME --profile=PROFILE connscan        #イメージ取得時のアクティブおよび終了した通信一覧が表示される、PIDに注目する  
